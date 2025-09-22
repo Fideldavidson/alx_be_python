@@ -1,5 +1,5 @@
 def display_menu():
-    print(f"\tShopping List Manager")
+    print("\nShopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
@@ -12,7 +12,6 @@ def main():
         choice = input("Enter your choice: ").strip()
 
         if choice == '1':
-            _ = input(["Enter the item to add: "])
             item = input("Enter item to add: ").strip()
             if item:
                 shopping_list.append(item)
